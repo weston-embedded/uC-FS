@@ -5684,9 +5684,8 @@ static  void  FS_FAT_ChkFile (FS_VOL            *p_vol,
 
 #if (FS_TRACE_LEVEL >= TRACE_LEVEL_INFO)
     if (end_of_file == DEF_NO) {                                /* If EOF not found, too many clus's in chain ...       */
-        if ((file_size != 0) || (file_clus_tot != 0)) {         /* Skip misleading message for 0-byte files w/o cluster */
+        if ((file_size != 0) && (file_clus_tot != 0)) {         /* Skip misleading message for 0-byte files w/o cluster */
             FS_TRACE_INFO(("FS_FAT_ChkFile(): Extra clusters linked to file.\r\n"));
-                                                                /* ... #### del extra clus's.                           */
         }
     }
 #endif
