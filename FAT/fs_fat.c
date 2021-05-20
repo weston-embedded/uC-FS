@@ -3,7 +3,7 @@
 *                                                uC/FS
 *                                      The Embedded File System
 *
-*                    Copyright 2008-2020 Silicon Laboratories Inc. www.silabs.com
+*                    Copyright 2008-2021 Silicon Laboratories Inc. www.silabs.com
 *
 *                                 SPDX-License-Identifier: APACHE-2.0
 *
@@ -20,7 +20,7 @@
 *                                     FILE SYSTEM FAT MANAGEMENT
 *
 * Filename     : fs_fat.c
-* Version      : V4.08.00
+* Version      : V4.08.01
 *********************************************************************************************************
 * Reference(s) : (1) Microsoft Corporation.  "Microsoft Extensible Firmware Initiative, FAT32 File
 *                    System Specification."  Version 1.03.  December 6, 2000.
@@ -5684,9 +5684,8 @@ static  void  FS_FAT_ChkFile (FS_VOL            *p_vol,
 
 #if (FS_TRACE_LEVEL >= TRACE_LEVEL_INFO)
     if (end_of_file == DEF_NO) {                                /* If EOF not found, too many clus's in chain ...       */
-        if ((file_size != 0) || (file_clus_tot != 0)) {         /* Skip misleading message for 0-byte files w/o cluster */
+        if ((file_size != 0) && (file_clus_tot != 0)) {         /* Skip misleading message for 0-byte files w/o cluster */
             FS_TRACE_INFO(("FS_FAT_ChkFile(): Extra clusters linked to file.\r\n"));
-                                                                /* ... #### del extra clus's.                           */
         }
     }
 #endif

@@ -3,7 +3,7 @@
 *                                                uC/FS
 *                                      The Embedded File System
 *
-*                    Copyright 2008-2020 Silicon Laboratories Inc. www.silabs.com
+*                    Copyright 2008-2021 Silicon Laboratories Inc. www.silabs.com
 *
 *                                 SPDX-License-Identifier: APACHE-2.0
 *
@@ -23,7 +23,7 @@
 *                             SST SST25 SERIAL NOR PHYSICAL-LAYER DRIVER
 *
 * Filename : fs_dev_nor_sst25.c
-* Version  : V4.08.00
+* Version  : V4.08.01
 *********************************************************************************************************
 * Note(s)  : (1) Supports SST's SST25 serial NOR flash memories, as described in various datasheets
 *                at SST (http://www.sst.com).  This driver has been tested with or should work with
