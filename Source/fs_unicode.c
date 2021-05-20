@@ -3,7 +3,7 @@
 *                                                uC/FS
 *                                      The Embedded File System
 *
-*                    Copyright 2008-2020 Silicon Laboratories Inc. www.silabs.com
+*                    Copyright 2008-2021 Silicon Laboratories Inc. www.silabs.com
 *
 *                                 SPDX-License-Identifier: APACHE-2.0
 *
@@ -20,7 +20,7 @@
 *                                      UNICODE STRING MANAGEMENT
 *
 * Filename  : fs_unicode.c
-* Version   : V4.08.00
+* Version   : V4.08.01
 *********************************************************************************************************
 * Notice(s) : (1) The Institute of Electrical and Electronics Engineers and The Open Group, have given
 *                 us permission to reprint portions of their documentation.  Portions of this text are

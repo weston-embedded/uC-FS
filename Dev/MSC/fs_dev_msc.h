@@ -3,7 +3,7 @@
 *                                                uC/FS
 *                                      The Embedded File System
 *
-*                    Copyright 2008-2020 Silicon Laboratories Inc. www.silabs.com
+*                    Copyright 2008-2021 Silicon Laboratories Inc. www.silabs.com
 *
 *                                 SPDX-License-Identifier: APACHE-2.0
 *
@@ -23,7 +23,7 @@
 *                                           for uC/USB-Host
 *
 * Filename : fs_dev_msc.h
-* Version  : V4.08.00
+* Version  : V4.08.01
 *********************************************************************************************************
 * Note(s)  : (1) Assumes uC/USB-Host V3.10, 3.30 or 3.40 is included in the project build.
 *

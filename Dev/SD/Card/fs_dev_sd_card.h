@@ -3,7 +3,7 @@
 *                                                uC/FS
 *                                      The Embedded File System
 *
-*                    Copyright 2008-2020 Silicon Laboratories Inc. www.silabs.com
+*                    Copyright 2008-2021 Silicon Laboratories Inc. www.silabs.com
 *
 *                                 SPDX-License-Identifier: APACHE-2.0
 *
@@ -23,7 +23,7 @@
 *                                              CARD MODE
 *
 * Filename     : fs_dev_sd_card.h
-* Version      : V4.08.00
+* Version      : V4.08.01
 *********************************************************************************************************
 * Reference(s) : (1) SD Card Association.  "Physical Layer Simplified Specification Version 2.00".
 *                    July 26, 2006.
