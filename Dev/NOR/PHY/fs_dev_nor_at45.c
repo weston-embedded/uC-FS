@@ -3,7 +3,7 @@
 *                                                uC/FS
 *                                      The Embedded File System
 *
-*                    Copyright 2008-2020 Silicon Laboratories Inc. www.silabs.com
+*                    Copyright 2008-2021 Silicon Laboratories Inc. www.silabs.com
 *
 *                                 SPDX-License-Identifier: APACHE-2.0
 *
@@ -23,7 +23,7 @@
 *                             ATMEL AT45 SERIAL NOR PHYSICAL-LAYER DRIVER
 *
 * Filename : fs_dev_nor_at45.c
-* Version  : V4.08.00
+* Version  : V4.08.01
 *********************************************************************************************************
 * Note(s)  : (1) Support for binary page size (ie. 512, 1024... bytes pages) is not implemented. Contact
 *                Micrium if this capability is required.

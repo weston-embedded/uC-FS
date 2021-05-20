@@ -3,7 +3,7 @@
 *                                                uC/FS
 *                                      The Embedded File System
 *
-*                    Copyright 2008-2020 Silicon Laboratories Inc. www.silabs.com
+*                    Copyright 2008-2021 Silicon Laboratories Inc. www.silabs.com
 *
 *                                 SPDX-License-Identifier: APACHE-2.0
 *
@@ -23,7 +23,7 @@
 *                             WINBOND W25Q SERIAL NOR PHYSICAL-LAYER DRIVER
 *
 * Filename : fs_dev_nor_w25q.c
-* Version  : V4.08.00
+* Version  : V4.08.01
 *********************************************************************************************************
 * Note(s)  : (1) With an appropriate BSP, this device NOR PHY layer will support the following
 *                devices:

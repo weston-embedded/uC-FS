@@ -19,7 +19,7 @@
 *
 *
 * Filename : fs_app_cfg.h
-* Version  : V4.08.00
+* Version  : V4.08.01
 * Note(s)  : This is an example application configuration template when using the initialization code
 * provided in fs_app.c. The relevant preprocessor definitions should be included in the project global
 * app_cfg.h. Note that the values are demonstrative only and should be configured correctly for the

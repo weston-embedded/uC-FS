@@ -3,7 +3,7 @@
 *                                                uC/FS
 *                                      The Embedded File System
 *
-*                    Copyright 2008-2020 Silicon Laboratories Inc. www.silabs.com
+*                    Copyright 2008-2021 Silicon Laboratories Inc. www.silabs.com
 *
 *                                 SPDX-License-Identifier: APACHE-2.0
 *
@@ -20,7 +20,7 @@
 *                                     FILE SYSTEM FAT MANAGEMENT
 *
 * Filename     : fs_fat.c
-* Version      : V4.08.00
+* Version      : V4.08.01
 *********************************************************************************************************
 * Reference(s) : (1) Microsoft Corporation.  "Microsoft Extensible Firmware Initiative, FAT32 File
 *                    System Specification."  Version 1.03.  December 6, 2000.
